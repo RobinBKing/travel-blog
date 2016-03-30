@@ -1,5 +1,33 @@
-.container {
+.container-fluid {
   li {
     list-style: none;
   }
 }
+
+.blog-tile {
+  width: 400px;
+  height: 450px;
+  text-align: center;
+  border: solid 2px black;
+  margin: 10px;
+  box-shadow: 2px 3px grey;
+  img {
+    width: 100%;
+    height: 230px;
+    padding: 0;
+  }
+  h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  p {
+    margin: 0;
+    font-family: 'Sue Ellen Francisco';
+  }
+}
+.indexList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  }
