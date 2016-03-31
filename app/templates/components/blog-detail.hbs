@@ -1,8 +1,11 @@
 <div class="col col-sm-6">
   <h1>{{blog.title}}</h1>
   <h2>by {{blog.author}}</h2>
-  <img src={{blog.image}} alt="model.image" />
+  <div class="blogDetailImage">
+    <img src={{blog.image}} alt="model.image" />
+  </div>
   <p>
     {{blog.article}}
   </p>
+  {{update-blog blog=blog update="update"}}
 </div>

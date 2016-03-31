@@ -4,8 +4,10 @@
   <h3>Life is too short</h3>
 </div>
 
+{{new-blog saveBlog2="saveBlog3"}}
+
 <ul class="indexList">
   {{#each model as |blog|}}
-     {{blog-tile blog=blog}}
+     {{blog-tile blog=blog update="update"}}
   {{/each}}
 </ul>
